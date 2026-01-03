@@ -6,22 +6,33 @@ body {
 .card {
   width: 400px;
   background: #fff;
-  margin: 16px auto;
+  margin: 14px auto;
+  padding:8px;
 }
 
 .title {
   background: #e3f4ff;
+  font-size:16px;
+  padding:7px;
+  margin-bottom:7px;
 }
 
 .content {
   background: #e3f4ff;
+  padding:14px 7px;
+  margin-bottom:7px;
 }
 
 .button-container {
   background: #e3f4ff;
+  text-align:center;
+  padding:7px;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
-}
+  padding:7px 14px;
+  display:block; /*take it to the next line instead of same line as words*/
+  margin:0 auto; /*no top bottom padding, and auto makes it align center horizontally*/
+} 
